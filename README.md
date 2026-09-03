@@ -2,6 +2,8 @@
 
 A small Chrome Manifest V3 extension for YouTube Studio.
 
+[Extension on Chrome Web Store](https://chromewebstore.google.com/detail/work-on-another-video/cnlmjjgmjmiipifadebimllappmaphig)
+
 ## What it does
 
 When a blocked YouTube Studio route is open, the Studio content area is covered with:
