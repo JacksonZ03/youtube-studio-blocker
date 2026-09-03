@@ -1,0 +1,70 @@
+:root {
+  color-scheme: light dark;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  width: 310px;
+  margin: 0;
+  background: Canvas;
+  color: CanvasText;
+}
+
+main {
+  padding: 18px;
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.intro {
+  margin: 0 0 14px;
+  color: GrayText;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 0;
+  border-top: 1px solid color-mix(in srgb, CanvasText 16%, transparent);
+  cursor: pointer;
+}
+
+.row span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.row strong {
+  font-size: 14px;
+}
+
+.row small {
+  color: GrayText;
+  font-size: 12px;
+}
+
+.row.locked {
+  cursor: default;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #ff0033;
+}
+
+.status {
+  min-height: 16px;
+  margin: 10px 0 0;
+  color: GrayText;
+  font-size: 12px;
+}

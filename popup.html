@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work on Another Video</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <h1>Work on another video.</h1>
+    <p class="intro">Choose which YouTube Studio pages get covered.</p>
+
+    <label class="row locked">
+      <span>
+        <strong>Analytics</strong>
+        <small>Always blocked</small>
+      </span>
+      <input type="checkbox" checked disabled aria-label="Analytics is always blocked">
+    </label>
+
+    <label class="row">
+      <span>
+        <strong>Dashboard</strong>
+        <small>Optional</small>
+      </span>
+      <input id="blockDashboard" type="checkbox">
+    </label>
+
+    <label class="row">
+      <span>
+        <strong>Community</strong>
+        <small>Optional</small>
+      </span>
+      <input id="blockCommunity" type="checkbox">
+    </label>
+
+    <p id="status" class="status" aria-live="polite"></p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
