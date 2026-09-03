@@ -1,6 +1,10 @@
 # Work on Another Video
 
-A small Chrome Manifest V3 extension for YouTube Studio.
+A small Chrome Manifest V3 extension to deliberately hide analytics in YouTube Studio.
+
+**If you're a creator, this will do wonders for your mental health.**
+
+![Screenshot](./Screenshot.png)
 
 [Extension on Chrome Web Store](https://chromewebstore.google.com/detail/work-on-another-video/cnlmjjgmjmiipifadebimllappmaphig)
 
